@@ -1,0 +1,55 @@
+# Operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Build products
+build/
+dist/
+*.log
+
+# Medical images, datasets, checkpoints, and generated results
+*.nii
+*.nii.gz
+*.nrrd
+*.mha
+*.mhd
+*.dcm
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.npy
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+outputs/
+results/
+
+# Local analysis artifacts containing machine-specific paths
+scripts/export_summary.json
+scripts/with_ltc/
+scripts/without_ltc/
+CalculateMetrics.ipynb
+
+# The model uses the released mamba-ssm package. This local source/build copy
+# is intentionally not vendored in the public repository.
+nnUNet/mamba-main/
