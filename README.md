@@ -1,16 +1,15 @@
 # ESPI-Net
 
-Official PyTorch implementation of **ESPI-Net: Encoder-Stage Phase Interaction
-Network for Multiphasic Breast DCE-MRI Segmentation**.
+**ESPI-Net: Encoder-Stage Phase Interaction Network for Multiphasic Breast DCE-MRI Segmentation**.
 
-This paper has been accepted by the BIBM conference.
+This paper has been accepted by the BIBM 2026.
 
 ## Requirements
 
 - Linux
-- Python 3.9 or newer
+- Python 3.12
 - CUDA-capable NVIDIA GPU (the paper used one RTX 3090)
-- PyTorch 2.1.2 or newer
+- PyTorch 2.5.1
 - CUDA-compatible `mamba-ssm`
 
 Create an environment and install PyTorch for your CUDA version first. Then
